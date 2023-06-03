@@ -1,0 +1,39 @@
+.images-search .container .result-stats {
+  margin-bottom: 20px;
+}
+.images-search .container .container-results {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.images-search .container .container-results .image-box {
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #e3e3e3;
+}
+.images-search .container .container-results .image-box .image {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.images-search .container .container-results .image-box .image img {
+  height: 300px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+.images-search .container .container-results .image-box .title {
+  color: #004aad;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.images-search .container .container-results .image-box .snippet {
+  color: #333;
+}

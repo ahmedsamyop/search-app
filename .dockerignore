@@ -1,0 +1,10 @@
+/node_modules
+/build
+Dockerfile
+.gitignore
+.dockerignore
+.env
+netlify.toml
+.dockerignore
+docker-compose.yml
+prepros.config

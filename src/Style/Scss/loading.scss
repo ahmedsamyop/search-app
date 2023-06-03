@@ -1,0 +1,15 @@
+@use "../Rules/mixin" as *;
+.loading {
+  height: calc(100vh - 152px);
+  .container {
+    position: relative;
+    height: 100%;
+    @include f-center;
+    .wrap-puff {
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

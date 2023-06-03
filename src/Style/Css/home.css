@@ -1,0 +1,132 @@
+.app {
+  position: relative;
+  height: 100vh;
+}
+.app .container {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.app .container .image {
+  width: 100%;
+  max-width: 600px;
+}
+.app .container .search {
+  width: 100%;
+  padding-top: 25px;
+}
+.app .container .search .box {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  border: 2px solid #ababab;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.app .container .search .box .icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.app .container .search .box .input_search {
+  font-size: 22px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  color: black;
+}
+.app .container .search .box:hover {
+  border: 2px solid transparent;
+  background-color: #ababab;
+}
+.app .container .search .btn_search {
+  display: block;
+  margin: 15px auto 0;
+  font-size: 22px;
+  padding: 5px 40px;
+  outline: none;
+  border-color: #004aad;
+  color: #004aad;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.app .container .search .btn_search:hover {
+  background-color: #004aad;
+  color: white;
+  border-color: transparent;
+}
+.app .copywrite {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.app .copywrite .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.app .copywrite .container .text {
+  padding: 5px 0;
+}
+.app .copywrite .container .text span {
+  color: #004aad;
+  background-image: -webkit-linear-gradient(90deg, #004aad 54%, #000 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.app .copywrite .container .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.app .copywrite .container .contact a {
+  display: block;
+  font-size: 25px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.app .copywrite .container .contact a:hover {
+  background-color: #c3c3c3;
+}

@@ -1,0 +1,35 @@
+@use "../Rules/mixin" as *;
+.erorr-page {
+  position: relative;
+  height: calc(100vh - 152px);
+  .container {
+    height: 100%;
+    @include f-center;
+    flex-direction: column;
+    .code {
+      color: red;
+      font-size: 120px;
+    }
+    .massage {
+      color: #4c4c4c;
+      font-size: 25px;
+    }
+    .go-home {
+      display: block;
+      margin: 15px auto 0;
+      font-size: 22px;
+      padding: 5px 40px;
+      border: 1px solid #004aad;
+      color: #004aad;
+      border-radius: 8px;
+      background-color: transparent;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        background-color: #004aad;
+        color: white;
+        border-color: transparent;
+      }
+    }
+  }
+}
