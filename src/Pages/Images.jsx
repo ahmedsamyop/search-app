@@ -17,7 +17,6 @@ function Images() {
   const navigate = useNavigate()
 
   if (resultsImages.items) {
-    console.log(resultsImages)
     fetchResultsImages = resultsImages.items.map((ele) => {
       return (
         <div className="image-box" key={ele.title + ele.link}>

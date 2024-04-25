@@ -6,13 +6,14 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 .all-search .container .result-container .result {
   width: calc(50% - 15px);
@@ -25,6 +26,7 @@
 .all-search .container .result-container .result .link .url-string {
   font-size: 16px;
   color: #333;
+  text-overflow: ellipsis;
 }
 .all-search .container .result-container .result .link .snippet {
   font-size: 17px;
@@ -33,11 +35,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 .all-search .container .result-container .result .link .snippet img {
   max-height: 65px;
