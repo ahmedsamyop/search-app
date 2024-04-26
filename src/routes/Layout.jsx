@@ -69,6 +69,53 @@ function Layout() {
       <div className="search-reasult">
         <Outlet />
       </div>
+      <div className="footer">
+        <div className="container">
+          <p className="text">
+            © Copyright 2023{' '}
+            <a
+              className="whatsapp"
+              href="https://api.whatsapp.com/send/?phone=0201110649108&text=Welcome+I%27m+Ahmed+Samy&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ahmed Samy
+            </a>
+          </p>
+          {/* <div className="contact">
+            <a
+              href="https://www.linkedin.com/in/ahmedsamyop"
+              target={'_blank'}
+              rel="noreferrer"
+              style={{ color: '#0a66c2' }}
+            >
+              <div className="icon">
+                <FontAwesomeIcon icon={faLinkedin} />
+              </div>
+            </a>
+            <a
+              href="https://github.com/ahmedsamyop"
+              target={'_blank'}
+              rel="noreferrer"
+              style={{ color: '#333' }}
+            >
+              <div className="icon">
+                <FontAwesomeIcon icon={faGithub} />
+              </div>
+            </a>
+            <a
+              href="https://twitter.com/ahmedsamyop"
+              target={'_blank'}
+              rel="noreferrer"
+              style={{ color: '#1da1f2' }}
+            >
+              <div className="icon">
+                <FontAwesomeIcon icon={faTwitter} />
+              </div>
+            </a>
+          </div> */}
+        </div>
+      </div>
     </>
   )
 }

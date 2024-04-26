@@ -95,12 +95,18 @@
 .app .copywrite .container .text {
   padding: 5px 0;
 }
-.app .copywrite .container .text span {
+.app .copywrite .container .text .whatsapp {
+  display: inline-block;
   color: #004aad;
   background-image: -webkit-linear-gradient(90deg, #004aad 54%, #000 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.app .copywrite .container .text a.whatsapp:hover {
+  transform: translateY(-3px);
 }
 .app .copywrite .container .contact {
   display: -webkit-box;

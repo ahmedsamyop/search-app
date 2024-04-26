@@ -4,8 +4,8 @@ import SearchInput from '../components/SearchInput'
 import { useNavigate } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 import { getSearchResults, setDisplay } from '../store/searchSlice'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 // React Lazy Load Image Component
 import { LazyLoadImage } from 'react-lazy-load-image-component'
@@ -45,9 +45,17 @@ function Home() {
       <div className="copywrite">
         <div className="container">
           <p className="text">
-            © Copyright 2022-2023 <span>Ahmed Samy</span>
+            © Copyright 2023{' '}
+            <a
+              className="whatsapp"
+              href="https://api.whatsapp.com/send/?phone=0201110649108&text=Welcome+I%27m+Ahmed+Samy&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ahmed Samy
+            </a>
           </p>
-          <div className="contact">
+          {/* <div className="contact">
             <a
               href="https://www.linkedin.com/in/ahmedsamyop"
               target={'_blank'}
@@ -78,7 +86,7 @@ function Home() {
                 <FontAwesomeIcon icon={faTwitter} />
               </div>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
