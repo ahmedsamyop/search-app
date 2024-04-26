@@ -1,6 +1,6 @@
 # search-app
 
-Search App with Google API built with ReactJS, Redux, Redux Toolkit, React Router DOM, Docker, CircleCI, and deployed on Netlify
+Shatot Search App with Google API built with ReactJS, Redux, Redux Toolkit, React Router DOM, Docker, CircleCI, and deployed on Netlify
 
 ### build & Deploy with
 
